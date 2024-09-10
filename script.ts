@@ -261,6 +261,7 @@ const getSectionsHTML = (sections: Section[]) => {
       (section) => `
         <div class="section ">
               <h2>${section.name}</h2>
+              <div class="separator"></div>
               <p>${section.description}</p>
               <div class="items ${
                 section.hasSeparators ? "has-separators" : ""

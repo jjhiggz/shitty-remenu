@@ -2,6 +2,9 @@
   "name": "shitty-remenu",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
